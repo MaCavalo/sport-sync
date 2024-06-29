@@ -51,7 +51,6 @@ class RqSgin:
         PHPSESSID = await self.getSiginPHPSESSID()
         ## 设置请求头Cookie
         self.headers['Cookie'] = f"PHPSESSID={PHPSESSID}"
-        print(PHPSESSID)
         threshold = 10
         signVerifyCodeStatus = False
         i = 1
