@@ -20,8 +20,8 @@ class RQConnect:
             "accept-language" : "zh-Hans-HK;q=1.0, en-HK;q=0.9, en-GB;q=0.8, yue-Hant-HK;q=0.7",
         }
         self.req = httpx.AsyncClient(timeout=TIME_OUT)
-        self.email = jizhuit@gmail.com
-        self.password = btclzbj888
+        self.email = "jizhuit@gmail.com"
+        self.password = "btclzbj888"
         self.rqdbpath = rqdbpath
     
     async def login(self, aesChiper):
