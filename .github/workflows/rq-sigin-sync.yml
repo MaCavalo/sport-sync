@@ -3,7 +3,7 @@ name: rq-sigin-sync
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 9 * * *'
+    - cron: '51 10 * * *'
 
 env:
   GITHUB_NAME: macavalo
